@@ -30,7 +30,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
 }
-.column p {
+.column a {
+    text-decoration: none;
     margin: 5px 0;
     font-size: 16px
 }
@@ -49,6 +50,52 @@ body {
     color: #2f00ff;
 }
 
+.sectionF3{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    margin-top: 20px;
+}
+
+hr{
+    height: 3px;
+    background-color: #ffffff;
+    border: none;
+}
+.menu-columnsForm {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.columnFormInput {
+    display: flex;
+    align-items: center; /* Pour aligner verticalement l'input et le label */
+    gap: 10px; /* Espace entre le label et l'input */
+}
+.menu-columnsForm .columnForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+label {
+    width: 190px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+    font-size: 16px
+}
+
+input[type=text] {
+    border: none;
+    background-color: black;
+    border-color: black;
+    color: rgb(35, 177, 0);
+    border-bottom: 2px solid rgb(35, 177, 0);
+}
+
+
+.titre-d {color: white;}
 .titre-y {color: #ffff00;}
 .titre-g {color: #00ff00;}
 .titre-b {color: #2f00ff;}

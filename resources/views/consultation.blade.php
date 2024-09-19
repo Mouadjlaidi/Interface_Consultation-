@@ -16,31 +16,31 @@
     
     <div class="menu-columns">
         <div class="column">
-            <p>01 - Consultation / Assuré</p>
-            <p>02 - Consultation / Acheteur</p>
-            <p>03 - DCA Déclaré / Année</p>
-            <p>04 - Primes Facturées / Année</p>
-            <p>05 - Primes Encaissées / Année</p>
-            <p>06 - C.A. Facturés / Année</p>
-            <p>07 - Etat Comptable des Primes Facturées R C</p>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>01 - Consultation / Assuré</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>02 - Consultation / Acheteur</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>03 - DCA Déclaré / Année</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>04 - arimes Facturées / Année</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>05 - arimes Encaissées / Année</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>06 - C.A. Facturés / Année</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>07 - Etat Comatable des arimes Facturées R C</a>
 
-            <p class="titre-g">19 - Menu Consultation APC</p>
-            <p class="titre-b">20 - Menu Consult./Edition OCP</p>
+            <a href="{{route('consulatation.create')}}" class="titre-g">19 - Menu Consultation AaC</a>
+            <a href="{{route('consulatation.create')}}" class="titre-b">20 - Menu Consult./Edition OCa</a>
         
         </div>
 
         <div class="column">
-            <p>08 - Encours Par Année</p>
-            <p>09 - Encours Domestique / Année</p>
-            <p>10 - Consultation A.C.S</p>
-            <p>11 - Consultation Avoirs</p>
-            <p>12 - Consultation MIN. PRIME</p>
-            <p>13 - Consultation FACT. TRIMESTR.</p>
-            <p>14 - Liste Polices (Trimestr.)</p>
-            <p>15 - Liste Polices(INTERMÉDIAIRE)</p>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>08 - Encours aar Année</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>09 - Encours Domestique / Année</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>10 - Consultation A.C.S</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>11 - Consultation Avoirs</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>12 - Consultation MIN. aRIME</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>13 - Consultation FACT. TRIMESTR.</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>14 - Liste aolices (Trimestr.)</a>
+            <a href="{{route('consulatation.create')}}"  class='titre-d'>15 - Liste aolices(INTERMÉDIAIRE)</a>
 
-            <p class="titre-y">16 - Engagements / Pays</p>
-            <p class="titre-y">17 - EDITION PV. COMITE ARBITRAGE</p>
+            <a href="{{route('consulatation.create')}}" class="titre-y">16 - Engagements / aays</a>
+            <a href="{{route('consulatation.create')}}" class="titre-y">17 - EDITION aV. COMITE ARBITRAGE</a>
         </div>
     </div>
 
